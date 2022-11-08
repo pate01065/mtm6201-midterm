@@ -1,0 +1,76 @@
+/* Add a black background color to the top navigation */
+.topnavbar {
+  background-color: rgb(253, 242, 242);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #646262;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: rgb(253, 196, 196);
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.navbar a.active {
+  background-color: rgb(253, 196, 196);
+  color: white;
+}
+
+h1{
+    font-family: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 10%;
+    height: 10%;
+    padding: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 20%;
+    padding: 0;
+  }
