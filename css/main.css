@@ -35,26 +35,27 @@ li a:hover{
   width: 100%;
 }
 
-
 header{
   background-color: white;
 }
 
 .banner {
   margin: 0;
+  padding: 10px;
   max-width: 100%;
 }
 
-.center {
-  display: block;
-  margin-left: 60%;
-  margin-right: 0;
+img{
+  float: right;
   width: 25%;
 }
 
 .banner p{
+  display: block;
+  width: 100%;
   font-size: 1rem;
   color: #646262;
+  align-items: center;
 }
 
 h1{
@@ -75,6 +76,12 @@ h1{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
+    opacity: 1;
+    transition: 0.5s;
+}
+s
+.btn:hover {
+  opacity: 0.6;
 }
 
 h2{
@@ -88,6 +95,13 @@ h3{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #5a5859;
   text-align: center;
+}
+
+.container product{
+  display: block;
+  width: 100%;
+  font-size: 2rem;
+  color: #646262;
 }
 
 .button{
@@ -135,6 +149,11 @@ h3{
 
 
 /****styling the contact form****/
+.ourcontacts{
+  width: 50%;
+  margin: 20px;
+  padding: 20px;
+}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -160,7 +179,7 @@ input[type=submit]:hover {
   background-color: #646262;
 }
 
-.container {
+form .container {
   border-radius: 5px;
   background-color: #fff7f7;
   padding: 20px;
@@ -176,3 +195,23 @@ input[type=submit]:hover {
     color: rgb(146, 147, 148);
     font-size: small;
   }
+
+
+  /* For mobile phones: */
+[class*="row-colimn"] {
+  width: 100%;
+}
+
+  /* For tablets: */
+@media only screen and (min-width: 600px) {
+  .row .column{
+    width: 8.33%;
+  }
+}
+
+  /* For desktop: */
+@media only screen and (min-width: 768px) {
+  .row .column {
+    width: 8.33%;
+  }
+}
