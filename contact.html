@@ -35,18 +35,25 @@
 <div id="ourcontacts"class="wrapper">
     <h1>Contact Us</h1>
     <h2>Send us a message</h2>
-    <form action="thanks.html" method="post">
-        <label for="fullname">Name</label><br>
-        <input id="fullname" type="text"><br>
-        <label for="email">Email</label><br>
-        <input id="email" type="text"><br>
-        <label for="message">Message</label><br>
-        <textarea id="message"></textarea><br>
-        <button class="Send button">Send</button>
-    </form>
-</div>
-<!--contact form end here-->
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
+        <label for="email">Email</label>
+        <input type="text" id="email" name="emailid" placeholder="Your email address..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+<!--contact form end here-->
+<br><br><br><br><br><br>
 <!--footer contains the copyright information-->
 <footer>
     <div class="wrapper">
