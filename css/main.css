@@ -68,6 +68,14 @@ h1{
     border-radius: 8px;
 }
 
+h2{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #66314c;
+  text-align: center;
+
+}
+
 
 /* Five image containers */
 .column {
@@ -104,5 +112,6 @@ h1{
     background-color: #646262;
     margin: 0;
     padding: 0;
-    color: aliceblue;
+    color: rgb(146, 147, 148);
+    font-size: small;
   }
