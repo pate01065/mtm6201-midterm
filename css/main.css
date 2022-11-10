@@ -4,7 +4,7 @@ html{
 
 .wrapper{
   margin: 0;
-  max-width: 1200px;
+  max-width: 100%;
 }
 
 ul{
@@ -35,12 +35,21 @@ li a:hover{
   width: 100%;
 }
 
+
 header{
   background-color: white;
 }
 
-.cover{
-  float: right;
+.banner {
+  margin: 0;
+  max-width: 100%;
+}
+
+.center {
+  display: block;
+  margin-left: 60%;
+  margin-right: 0;
+  width: 25%;
 }
 
 .banner p{
@@ -72,6 +81,12 @@ h2{
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   color: #66314c;
+  text-align: center;
+}
+
+h3{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #5a5859;
   text-align: center;
 }
 
